@@ -1,0 +1,40 @@
+body {
+color: black;
+font-family: arial;
+max-width: 650px;
+margin: 0 auto;
+padding: 0 16px;
+
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+}
+footer {
+    color: grey;
+    font-family: arial;
+    border-top: 1px solid grey;
+    margin-top: 16px;
+    padding:16px;
+
+}
+
+header{
+    color: lightblue;
+margin-top: 16px;
+
+margin-bottom: 40px;    
+}
+
+header a{
+    margin: 16px;
+    text-decoration: none;
+}
+.port{
+    width: 250px;
+}
+button{
+cursor: pointer;
+}
